@@ -15,6 +15,9 @@ import { initTable } from "./components/table.js";
 
 // Исходные данные используемые в render()
 const { data, ...indexes } = initData(sourceData);
+// ДОБАВЬТЕ ЭТО
+console.log('First row:', data[0]);
+console.log('All keys:', Object.keys(data[0]));
 
 /**
  * Сбор и обработка полей из таблицы
